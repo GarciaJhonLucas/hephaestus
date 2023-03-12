@@ -9,7 +9,7 @@
         <title>Dashboard</title>
         <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
         <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <meta name="theme-color" content="#7952b3">
+        <meta name="theme-color" content="#212529">
         <style>
             .bd-placeholder-img {
             font-size: 1.125rem;
@@ -99,6 +99,22 @@
                                 <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
                                 <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
                             </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Title header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Title Card</h5>
+                            <p class="card-text">Card message</p>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <a href="#" class="btn btn-primary">Button</a>
                         </div>
                     </div>
                 </main>
